@@ -9,7 +9,7 @@
 int ReadNumber(string message)
 {
     Console.WriteLine(message);
-    return Convert.ToInt32(Console.ReadLine());
+    return Convert.ToInt32(Console.ReadLine()); 
 }
 
 int[,] GetMatrix(int rows, int cols, int leftRange = -10, int rightRange = 10)
